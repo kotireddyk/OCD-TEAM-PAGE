@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body
+{
+	background:-webkit-radial-gradient(circle, #3388b2,#053a5b);
+    background:-moz-radial-gradient(circle, #3388b2,#053a5b);
+    background:-ms-radial-gradient(circle, #3388b2,#053a5b);
+    background:-o-radial-gradient(circle, #3388b2,#053a5b);
+    background: radial-gradient(circle, #3388b2,#053a5b);
+	height: 726px;
+	margin: 0 !important;
+	width: 1345px;
+}
+
+#container
+{
+	background-color: #0d2f49;
+	height: 647px;
+	margin-top: 108px;
+	margin-right: 160px;
+	margin-bottom: 79px;
+	margin-left: 165px;
+	width: 1020px;
+
+}
+
+#box
+{
+	float: left;
+	clear: both;
+	height: 109px;
+}
+
+#imgbox
+{
+	float: left;
+	clear: both;
+	padding-top: 27px;
+	padding-left: 32px;
+	
+}
+
+#face, #face1, #face2
+{
+	border: 6px solid #08253e;
+	border-radius: 50%;
+}
+
+#face
+{
+	height: 71px;
+	width: 71px;
+}
+
+#textbox
+{
+	float: left;
+	height: 60px;
+	margin-top: 34px;
+	margin-right: 145px;
+	background-color: #144667;
+	width: 666px;
+	padding: 4px 11px;
+	color: #9e9e9e;
+	font-size: 13px;
+	font-family: DroidSans;
+}
+#rect
+{
+   float: left;
+   width: 0;
+   height: 0;
+   border-right: 68px solid #144667;
+   border-top: 34px solid transparent;
+   border-bottom: 34px solid transparent;
+   margin-top: 34px;
+   margin-left: 4px;
+}
+
+#box1, #imgbox1, #box2, #imgbox2
+{
+	float: left;
+	clear: both;
+}
+
+#imgbox1
+{
+	padding-top: 12px;
+	padding-left: 79px;
+}
+
+#face1
+{
+	height: 94px;
+	width: 94px;
+
+}
+
+#rect1
+{
+   float: left;
+   width: 0;
+   height: 0;
+   border-right: 80px solid #144667;
+   border-top: 40px solid transparent;
+   border-bottom: 40px solid transparent;
+   margin-top: 28px;
+   margin-left: 5px;
+}
+
+#textbox1
+{
+	float: left;
+	height: 72px;
+	margin-top: 28px;
+	margin-right: 74px;
+	background-color: #144667;
+	width: 654px;
+	padding: 4px 11px;
+	color: #c5c5c5;
+	font-size: 13px;
+	font-family: DroidSans;
+}
+
+#imgbox2
+{
+	padding-top: 18px;
+	padding-left: 98px;
+}
+
+#face2
+{
+	height: 128px;
+	width:128px;
+}
+
+#rect2
+{
+   float: left;
+   width: 0;
+   height: 0;
+   border-right: 82px solid #b8cfdf;
+   border-top: 41px solid transparent;
+   border-bottom: 41px solid transparent;
+   margin-top: 28px;
+   margin-left: 10px;
+}
+
+#textbox2
+{
+	float: left;
+	height: 74px;
+	margin-top: 28px;
+	margin-right: 41px;
+	background-color: #b8cfdf;
+	width: 627px;
+	padding: 4px 11px;
+	
+}
+
+textarea
+{
+	border: 0px !important;
+	background-color: #b8cfdf;
+	width: 627px;
+	color: #113f5e;
+    font-size: 15px;
+	font-weight: bold;
+	font-family: DroidSans;
+	height: 74px;
+}
+
+button
+{
+	display: none;
+	border: 0px !important;
+	background-color: #08991c;
+	float: right;
+	color: #ffffff;
+    font-size: 16px;
+	font-family: DroidSans;
+	height: 30px;
+	margin-top: 7px;
+	margin-right: -11px;
+	width: 96px;
+}
+
+span 
+{
+	display: none;
+	color: #4081af;
+	float: right;
+	font-size: 13px;
+	font-family: DroidSans;
+    margin-top: 12px;
+    margin-right: 10px;
+}
